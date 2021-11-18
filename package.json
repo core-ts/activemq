@@ -1,0 +1,29 @@
+{
+  "name": "activemq",
+  "version": "0.1.0",
+  "description": "activemq",
+  "main": "./lib/index.js",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build:lib": "tsc",
+    "clean:lib": "rimraf lib"
+  },
+  "dependencies": {
+    "stompit": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/stompit": "^0.26.2",
+    "tslint": "5.10.0",
+    "typescript": "^3.3.3333"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/core-ts/activemq"
+  },
+  "keywords": [
+    "activemq"
+  ]
+}
